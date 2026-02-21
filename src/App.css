@@ -157,3 +157,28 @@ body {
   padding: 2px 8px;
   cursor: pointer;
 }
+
+/* 8. Preguntas Frecunetes de acuerdo a Información académica y administrativa */
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.faq-button {
+  background-color: #1e73ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.faq-button:hover {
+  background-color: #1559c9;
+  transform: translateY(-2px);
+}
